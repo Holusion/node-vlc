@@ -8,9 +8,12 @@
   "bugs": {
     "url": "http://github.com/tjfontaine/node-vlc/issues"
   },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/tjfontaine/node-vlc.git"
+    "url": "https://github.com/Holusion/node-vlc"
   },
   "main": "vlc.js",
   "engines": {
@@ -22,5 +25,9 @@
     "ref-struct": ">= 0.0.3",
     "ref-union": ">= 0.0.2",
     "semver": ">= 1.0.14"
+  },
+  "devDependencies":{
+    "mocha":"*",
+    "chai":"*"
   }
 }
