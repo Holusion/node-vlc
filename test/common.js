@@ -6,3 +6,4 @@ var VLC = require('../vlc');
 
 global.VLC = VLC;
 global.expect = chai.expect;
+global.should = chai.should();
