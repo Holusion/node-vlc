@@ -32,7 +32,6 @@ player.on('Paused',function(){
 });
 player.on('EncounteredError',function(){
 
-	console.log(vlc.errmsg());
 	console.log("error")
 })
 
